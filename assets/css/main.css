@@ -1,0 +1,10 @@
+/*
+this is already injected by nuxtui 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+h1,h2,h3,h4,strong {
+	font-family: 'Fraunces';
+}

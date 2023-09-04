@@ -1,0 +1,4 @@
+---
+layout: directory
+---
+Folder content

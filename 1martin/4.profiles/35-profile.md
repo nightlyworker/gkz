@@ -1,0 +1,117 @@
+# 3/5 profile
+
+## TL;DR
+The 3/5 profile is resilient, adaptable, and here to come up with novel solutions. They have a passion to help others and leave the world in a better place than they found it. They learn by trial and error and have a powerful karma to influence a broad reach of people. Relationships can be challenging, but with authentic room for growth, they can become stable and viable. The 3/5 profile is laden with gifts, including visionary curiosity and profound wisdom. They are here to save the world with new values and new possibilities.
+
+## The Gifts
+The 3/5 Profile is truly a gift to the world. With their visionary and curious nature, they are here to save the world with new values and new possibilities. They have an unbounded resiliency to explore and learn what works and what doesn’t. Their passion to help others and profound wisdom that comes through their lived experience is truly remarkable.
+
+One of the most important things for a 3/5 Profile to learn is patience. They have a trial-and-error process that can lead to healthy exploration and growth, but it requires waiting for emotional clarity before making decisions. This can be challenging, but with practice, they can learn to be patient in the decision-making process.
+
+For those with individual definition, the 3/5 Profile brings the theme of melancholy into their process. Times of sadness in their lives bring the need to be focused. Despite what they may encounter, they have the capacity to sustain their way. The gift of any manifestor is to act, and the 3/5 that takes advantage of the creative melancholic environment can, when its mood shifts, manifest the results.
+
+It is important to recognize the power of the 3/5 Profile and the unique purpose they bring to the world. They are here to impact strangers of consequence and bring powerful transformation through experience. With tenacious resilience, they compost negative experiences into wisdom. The 3/5 Profile is truly a gift, and with positive reinforcement and guidance, they can fulfill their personal destiny and make a significant impact on the world.
+
+## The Shadows
+The 3/5 Profile is a unique and powerful personality type, but like all types, it has its shadows. One of the shadows of the 3/5 Profile is the tendency to abruptly leave relationships that are not working. This can be challenging for the person they are in a relationship with, who may feel unreasonably dumped. It can also be difficult for the 3/5 Profile, who lives in a world that says pair bonding is the ultimate happiness. However, if the partner can tolerate the 3/5 coming and going while they find what they need and what works, the relationship can become stable and viable.
+
+Another shadow of the 3/5 Profile is the pressure to get things right. This can be especially challenging for children with this profile, who may feel tremendous pressure to succeed and may struggle with perfectionism. It is important for parents and caregivers to support children with this profile and encourage them to focus on what they have learned from their experiments, rather than judging them for their mistakes.
+
+The 3/5 Profile can also struggle with pessimism and a sense of helplessness. It is important for individuals with this profile to recognize their own power and resilience, and to focus on the gifts that come with their profile, such as their visionary and curious nature, their passion to help others, and their profound wisdom that comes through their lived experience.
+
+Overall, the 3/5 Profile is a complex and dynamic personality type that requires understanding and support from those around them. By recognizing and working through their shadows, individuals with this profile can harness their unique gifts and make a positive impact on the world.
+
+
+## What to avoid as 3/5 profile
+
+```sh
+@amautawriter
+instr: in list. make it very easy to understand with simple attractive expressions.
+query: what to avoid as 3/5 profile
+````
+- Taking projections from others to heart - remember that what people see has very little to do with you and everything to do with the person projecting.
+- Moralizing about mistakes - instead, focus on what you can learn from each trial and error experience.
+- Falling prey to the pressure to live up to projections - embrace your trial-and-error style and value the wisdom gained from trying things out.
+- Staying in relationships that don't feel good - the 3/5 is designed to move away from what doesn't work and move towards what does.
+- Blindly entering into risks without honoring your mechanics - take the time to feel within yourself and determine if a risk is truly aligned with your path.
+
+## What to embrace as 3/5 profile
+```sh
+@amautawriter
+instr: and make it very easy to understand with simple attractive expressions.
+query: what to embrace as 3/5 profile
+````
+
+
+Embrace your trial-and-error style as a 3/5 profile! Relish in the space to explore and discover, even if it means making a mess. Don't fall prey to projections from others, and understand that there are no mistakes, only valuable wisdom gained from trying things out. Value your resiliency to continuously find new ways to improve life and relationships, and use your passion to help others. Remember that you are here to influence a broad reach of people and leave the world in a better place than you found it. Trust in your ability to determine the next level of possibility on the material plane and don't be afraid to take risks. Embrace your gifts of being visionary, curious, and wise from lived experiences. And most importantly, forgive yourself for any mistakes and trust in the process of trial and error.
+
+
+## 3/5 profile and relationship
+```sh
+@amautawriter
+instr: in multiple paragraphs. make it very easy to understand with simple attractive expressions.
+query: 3/5 profile and relationship
+````
+The 3/5 Profile is designed to move away from what doesn’t work and move towards what does. This can be challenging for the person they’re in a relationship with, who can feel unreasonably dumped. It can also be difficult for the 3/5 Profile, who lives in a world that says pair bonding is the ultimate happiness. However, there is good news for those 3/5 Profiles who desire long-term relationships. If the partner can tolerate the 3/5 coming and going while they find what they need and what works, the relationship can become stable and viable.
+
+It is quite possible that your 3/5 partner has no real idea of how restless they are, particularly in a relationship. Of course, they will have the gift of the gab and say all the right things, but as they’re stroking your face and whispering sweet nothings, keep an eye out for the feet inching towards the exit door. An escape clause should be written into any love contract with a third-line element, especially when coupled with the dreamy nature of the fifth line, which brings a strong degree of romanticism and big promises.
+
+The 3/5 profile is forever in search of the perfect relationship and will not compromise its ideals. These people need to be met, and understood, on every possible level before they give 100 per cent commitment. These are highly selective individuals when searching for a life mate. One thing you need to appreciate is the essential ingredient to throw into the mix with a 3/5 partner, hold them by the hand and lead them into life’s raw experiences. ‘Keeping it real’ will help coax their true natures out and free them from illusions and false realities. When this happens, the joy they can bring will be rewarding to both of you.
+
+In partnerships, hold the possibility of the 3/5 working it out, but don’t expect the 3/5 to stick around. With a bonds-made-and-broken theme, they are always looking to have the relationship feel right. When it doesn’t, they move on. Know that if the 3/5’s partner can be spacious with the 3/5’s process, the chance of a longer-term relationship increases exponentially. So, if you are in a relationship with a 3/5 Profile, be patient, understanding, and supportive. Encourage them to explore and experiment, and don't take it personally if they need to move on. Remember, they are here to influence a broad reach of people and leave the world in a better place than they found it.
+
+
+## Affirmations for 3/5 profile
+
+```sh
+@amautawriter
+instr: and make it very easy to understand with simple attractive expressions.
+query: list of affirmations for 3/5 profile
+````
+
+1. I am a resilient and adaptable problem solver.
+2. I trust my trial-and-error process to lead me to innovative solutions.
+3. I am not defined by my mistakes, but by my ability to learn from them.
+4. I am here to influence strangers of consequence and make a positive impact on the world.
+5. I embrace the bonds-made-and-broken pattern as a necessary part of my journey.
+6. I am not defined by others' projections, but by my own unique path.
+7. I am open to non-repetitive work that allows me to explore and discover.
+8. I am a visionary leader with the power to make a difference.
+9. I forgive myself for any explorations that seemingly ran amuck, knowing that they led me closer to my goals.
+10. I honor my 3/5 profile and trust in its wisdom and guidance.
+
+
+## Understanding the Human Design 3/5 Profile Life Experience
+
+```sh
+@lumi human design 3/5 profile life experience
+```
+If you are a 3/5 profile in Human Design, you are a great life experimenter. Your life journey is a discovery process, and you may often feel like your life is a series of failures. However, you should embrace that your experimentation is a foundation that will help others. You are the “great fixer” and are here to discover what does and does not work. This discovery starts at an early age, and your life can feel like a process of intense trial and error at times.
+
+It is important for you to embrace “messiness” in your life. Even though you see yourself as just trying to figure things out, when you are willing to share your experiences with others, it will inspire change. You are not afraid to call “BS” and can provide the collective with innovative solutions, help, and change. You are designed to take the heat when you stand up and tell the truth about what isn’t working.
+
+Your profile is represented as a 2 number combination, and it can be seen as an archetype for life. The 3/5 profile is all about trial and error, mutation, and adaptation. You are driven to take the results of your experiences and use those to project change and what you see as the Truth to the rest of the world.
+
+However, if you don’t follow your natural genetic strategy and authority in life, you may end up in a bottomless pit full of pessimism, victimhood, destroyed reputation, and paranoia. You may see yourself as a black sheep and keep running away your whole life. But if you learn to live with your own, so to speak, “formlessness,” then in your life, you will have time to be in the guise of hundreds of people, to try hundreds of different roles. This is an incredible wisdom of life that nothing in this world can replace you.
+
+You have the genetic imperative to discover in your life all the things that do NOT work. At first, that sounds negative to our mind, but you have an essential function contained within that. As each profile has its differentiated purpose, you are here to sort everything out – through the process of trial and error – what practically doesn’t work and thus doesn’t serve life.
+
+You are capable of initiating a profound transformation within a society, and you don’t give up. You are brave, resilient, have lots of endurance, and people want to have you around when the going gets tough. You are capable of going really deep without stopping, just because something is not working – because only this way you find those things with practical functionality and applicability in life and this way carry out a profound transformative influence on society.
+
+To live your best life, you need to follow your Strategy. The strategy of the 3/5 profile is to “insist” a solution until the lunar cycle passes. You need to learn based upon your strategy and authority early in life to discern what’s correct for you and what isn’t so that you don’t end up in pessimism but can show to all of us what really works in life.
+
+If you are a 3/5 profile in Human Design, there is nothing you need to do with this information. There is no action for you to take. If this information resonates with you, these aspects are things to recognize, accept and celebrate about yourself. You may choose to live in the flow of these characteristics instead of resisting them.
+
+In conclusion, the Human Design 3/5 profile life experience is all about trial and error, mutation, and adaptation. You are here to sort everything out and discover what practically doesn’t work and thus doesn’t serve life. You are capable of initiating a profound transformation within a society, and you don’t give up. To live your best life, you need to follow your Strategy and learn to discern what’s correct for you and what isn’t. Embrace your messiness and share your experiences with others to inspire change. Remember, you are a great fixer, and the world needs you.
+
+## haha 3/5 for kiddos
+
+Hey kiddos! Today we're going to talk about something super cool - the 3/5 Profile! It's like being a superhero, but instead of fighting bad guys, you're here to save the world with new ideas and possibilities. How awesome is that?
+
+So, imagine you're like a scientist, always trying out new experiments to see what works and what doesn't. Sometimes things might not go as planned, but that's okay! You're just learning and growing. It's like when you're trying to build a tower with blocks and it falls down - you just try again and make it even better!
+
+People might look up to you and want your help, but remember, you're the boss of your own experiments. Don't let anyone else tell you what to do or how to do it. You're the expert in your own life!
+
+Now, sometimes relationships can be a little tricky for us 3/5s. We might need some space to figure things out, and that's okay too. If someone doesn't understand that, it's not our fault. We just need to find people who support us and help us grow.
+
+So, kiddos, remember to always be curious and try new things. Don't be afraid to make mistakes, because that's how we learn. And most importantly, be true to yourself and don't let anyone else tell you who you should be. You're already a superhero, just by being you!
