@@ -37,7 +37,7 @@
 	<transition 
   enter-from-class="scale-y-[100%] opacity-0"
   enter-active-class="transition duration-700">
-	<div v-if="open" class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl bg-stone-100 rounded-2xl" id="website-menu" x-collapse="" x-collapse.duration.500ms="" x-show="open" >
+	<div v-if="open" class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl bg-zinc-100 rounded-2xl" id="website-menu" x-collapse="" x-collapse.duration.500ms="" x-show="open" >
 			<div class="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:pt-12 pb-24 pt-6">
 			<div
 				class="items-center rounded-3xl bg-gray-500/10 dark:bg-black-400/10 hidden justify-center lg:flex px-6 py-8">
@@ -130,25 +130,25 @@
 			<div class="flex flex-col gap-12 sm:gap-16">
 				<h2 class="font-medium tracking-tight sm:text-4xl text-3xl uppercase">Gene Keys</h2>
 				<div class="grid lg:grid-cols-3 gap-8">
-					<div class="flex flex-col gap-12 bg-gray-500/10 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
 						<p class="text-sm">01</p>
 						<div class="flex flex-col gap-4">
-							<h3 class="font-medium text-xl">Embrace Your Shadows, Discover Your Gifts</h3>
-							<p class="text-base dark:text-primary-200/70 text-primary-950/70 sm:text-lg">We all have both light and dark aspects within us. Gene Keys helps you understand your unique set of 'shadows,' turning them into stepping stones that lead to your innate 'gifts.' Your personal Gene Keys profile acts as a dynamic mirror—reflecting both your challenges and your potential back at you, empowering you to transform from the inside out.</p>
+							<h3 class="font-semibold text-xl">Embrace Your Shadows, Discover Your Gifts</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">We all have both light and dark aspects within us. Gene Keys helps you understand your unique set of 'shadows,' turning them into stepping stones that lead to your innate 'gifts.' Your personal Gene Keys profile acts as a dynamic mirror—reflecting both your challenges and your potential back at you, empowering you to transform from the inside out.</p>
 						</div>
 					</div>
-					<div class="flex flex-col gap-12 bg-gray-500/10 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
 						<p class="text-sm">02</p>
 						<div class="flex flex-col gap-4">
-							<h3 class="font-medium text-xl">Navigate Your Life with Clarity and Wisdom</h3>
-							<p class="text-base dark:text-primary-200/70 text-primary-950/70 sm:text-lg">Life often feels like a complex labyrinth. Gene Keys provides you with a compass—a guide that reveals the most direct route to fulfilling your destiny. Whether you're at a crossroads in your career, seeking deeper relationships, or yearning for spiritual enlightenment, your Gene Keys profile offers actionable insights that bring clarity to the chaos.</p>
+							<h3 class="font-semibold text-xl">Navigate Your Life with Clarity and Wisdom</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">Life often feels like a complex labyrinth. Gene Keys provides you with a compass—a guide that reveals the most direct route to fulfilling your destiny. Whether you're at a crossroads in your career, seeking deeper relationships, or yearning for spiritual enlightenment, your Gene Keys profile offers actionable insights that bring clarity to the chaos.</p>
 						</div>
 					</div>
-					<div class="flex flex-col gap-12 bg-gray-500/10 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
 						<p class="text-sm">03</p>
 						<div class="flex flex-col gap-4">
-							<h3 class="font-medium text-xl">A Lifelong Journey of Self-Discovery</h3>
-							<p class="text-base dark:text-primary-200/70 text-primary-950/70 sm:text-lg">The Gene Keys system isn't a one-time read; it's a lifelong exploration. As you grow and evolve, so does your understanding of your Gene Keys. This is more than a system; it's a living, breathing guidebook designed to evolve with you, continually offering fresh insights and wisdom.</p>
+							<h3 class="font-semibold text-xl">A Lifelong Journey of Self-Discovery</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">The Gene Keys system isn't a one-time read; it's a lifelong exploration. As you grow and evolve, so does your understanding of your Gene Keys. This is more than a system; it's a living, breathing guidebook designed to evolve with you, continually offering fresh insights and wisdom.</p>
 						</div>
 					</div>
 				</div>
@@ -160,9 +160,9 @@
 	<section class="py-16 sm:py-20">
 		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl text-center">
 			<div
-				class="flex flex-col items-center bg-gray-500/10 dark:bg-primary-100/10 gap-8 px-5 py-16 rounded-3xl sm:gap-10">
+				class="flex flex-col items-center bg-zinc-100 dark:bg-primary-100/10 gap-8 px-5 py-16 rounded-3xl sm:gap-10">
 				<div class="flex flex-col gap-4 sm:gap-6">
-					<h2 class="font-medium tracking-tight sm:text-4xl text-3xl mx-auto max-w-sm">Are You curious about inner Transformation ?</h2>
+					<h2 class="font-semibold tracking-tight sm:text-4xl text-3xl mx-auto max-w-sm">Are You curious about inner Transformation ?</h2>
 					<p class="dark:text-primary-200/70 text-primary-950/70 text-lg max-w-2xl mx-auto">Your journey towards a more fulfilling, enriched life begins here. Dive deep into your DNA to unlock the secrets that have been waiting for you since birth. Take the first step to transform your life with Gene Keys today.</p>
 				</div><a
 					class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"

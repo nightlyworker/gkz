@@ -1,3 +1,8 @@
+# hours
+2023-09-03 3h (first draft)
+
+
+
 # Run with Node Alpine
 node .output/server/index.mjs
 docker run -it --rm --name humandesignzone -p 3000:3000 -e "NODE_ENV=production" -v "$PWD/.output":/usr/src/app -w /usr/src/app node:20-alpine3.17 node server/index.mjs
