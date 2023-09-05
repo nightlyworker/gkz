@@ -7,10 +7,8 @@ const openaiApiKey = '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' //pro
 
 const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0.2, modelName: "gpt-3.5-turbo-0613", temperature: 0, maxTokens: 800  });
 
-
 const dir = '../content/gene-key/'
 const file = 'gene-key-1'
-
 
 const ff = await fs.readFile('./Keys-All Keys - All Data.csv', { encoding: 'utf8' });
 
@@ -36,15 +34,15 @@ for (let gk of c.data) {
 		codonRing: gk[12],
 		aminoAcid: gk[13]
 	}
-	console.log(item,gk)
-	process.exit(1)
+	console.log(item)
+	//process.exit(1)
 }
 
 
 
 console.log(dir+file)
 
-console.log(c)
+//console.log(c)
 
 process.exit(1)
 
