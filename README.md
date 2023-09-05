@@ -3,6 +3,11 @@
 
 
 
+---
+write detailed and informative article about gene keys 2 with tile "Gene Key 2 - [INSERT NAME]"
+create me action card for gene keys deck with archetype 2
+
+
 # Run with Node Alpine
 node .output/server/index.mjs
 docker run -it --rm --name humandesignzone -p 3000:3000 -e "NODE_ENV=production" -v "$PWD/.output":/usr/src/app -w /usr/src/app node:20-alpine3.17 node server/index.mjs
