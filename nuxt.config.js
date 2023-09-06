@@ -123,7 +123,7 @@ appConfig: {
 	umami: {
     version: 2,
 		host: 'https://umm.humandesign.zone', //'https://analytics.umami.is',
-		id: '72c00649-8aa3-4d5e-b355-37d2f12c54df', //'1fe31e35-3fbc-44ae-a217-81730790050b',
+		id: '3509aa3e-c33f-426b-8ac2-15e9e03fe921', //'1fe31e35-3fbc-44ae-a217-81730790050b',
 		ignoreLocalhost: true,
 		useDirective: false
   },

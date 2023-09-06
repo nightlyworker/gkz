@@ -3,9 +3,9 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
 // 3.5-turbo-0613
-const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 7000  });
+const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 6940  });
 
 const dir = '../content/gene-key/'
 
@@ -84,8 +84,8 @@ for (let gk of c.data) {
 	console.log('Answer: ', answer)
 
 
-	console.log(article)
-	console.log(description)
+	// console.log(article)
+	// console.log(description)
 	// remove charts for front matter
 	description = description.replaceAll(':','')
 	description = description.replaceAll('"','')
@@ -98,7 +98,7 @@ for (let gk of c.data) {
 	console.log('writing to ', filename)
 	const fw = await fs.writeFile(filename,  content);
 	console.log('done', item.no)
-	process.exit(1)
+	// process.exit(1)
 }
 
 
