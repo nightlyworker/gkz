@@ -55,7 +55,7 @@
 					<div class="mx-auto max-w-prose">
 						<Podcast :title="page.title"/>
 					<!-- gk card -->
-					<div class="bg-zinc-100 py-4 rounded-2xl mt-4 text-sm">
+					<div class="bg-zinc-100 p-4 rounded-2xl mt-4 text-sm">
 
 						Gene Key: {{ getGkNumber(page.title) }}
 						Programming Partner: {{ page.programmingpartner }}
