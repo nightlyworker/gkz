@@ -3,7 +3,7 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
 // 3.5-turbo-0613
 const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 6940  });
 
@@ -20,7 +20,7 @@ let c = Papa.parse(ff, { header: false,delimiter: ','});
 
 for (let gk of c.data) {
 	
-	if (gk[0] === 'Key' || parseFloat(gk[0]) < 23) {
+	if (gk[0] === 'Key' || parseFloat(gk[0]) < 28) {
 		continue
 	}
 	

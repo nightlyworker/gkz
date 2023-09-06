@@ -1,42 +1,72 @@
 <template>
-<main>
-	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-20 text-center lg:pt-32 bg-white">
-		<h1 class="mx-auto max-w-4xl font-display text-5xl 1font-medium tracking-tight text-slate-900 sm:text-7xl  font-bold">
-			<!-- --> <span class="relative whitespace-nowrap text-indigo-700"><svg aria-hidden="true" viewBox="0 0 418 42"
-					class="absolute left-0 top-2/3 h-[0.58em] w-full fill-indigo-300/70" preserveAspectRatio="none">
-					<path
-						d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
-					</path>
-				</svg><span class="relative">Human Design</span></span> <!-- --> Zone</h1>
-		<p class="mx-auto mt-12 max-w-2xl text-lg tracking-tight text-slate-700">Discover the wonders of Human Design with Human Design Zone <br/>Portal to Wisdom, Empowerment and Inner Alignment<br/>Guide to living your design</p>
-		<div class="mt-10 flex justify-center gap-x-6">
-				<nuxt-link to="/human-design-encyclopedia"
-				class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
-				>Get Started</nuxt-link><a
-				class="group inline-flex ring-1 items-center justify-center rounded-full py-2 px-4 text-sm focus:outline-none ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300"
-				href="https://www.youtube.com/watch?v=RhlQvbvMg-0"><svg aria-hidden="true"
-					class="h-3 w-3 flex-none fill-indigo-600 group-active:fill-current">
-					<path
-						d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z">
-					</path>
-				</svg><span class="ml-3">Watch video</span></a></div>
-		
-	</div>
-	
-	<Packed/>
-	
-	<Categorycard/>
-	
-	<Incetive/>
-	<!---
-	<HpList/>
-	-->
 
-	<HPPromo/>
-	<!--
-	<Press/>
-	-->
+<!-- body -->
+<main>
+	<!-- hero -->
+	<section class="py-16 sm:py-20">
+		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl">
+			<div class="flex flex-col gap-16">
+				<div class="flex flex-col items-start gap-8 sm:gap-10">
+					<div class="flex flex-col gap-4 sm:gap-6 items-start max-w-xl">
+						<h1 class="font- uppercase font-semibold tracking-tight lg:text-6xl sm:text-5xl text-4xl">Gene Keys Zone</h1>
+						<p class="dark:text-primary-200/70 text-primary-950/70 text-lg sm:text-xl">Gene Keys: The Ultimate Guide to Self-Discovery and Transformation</p>
+					</div><a
+						class="font-display items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"
+						href="/pricing">Get started</a>
+				</div><img alt="Hero picture" class="mx-auto h-2/3 w-2/3 grayscale rounded-3xl" src="https://genekeysdiary.files.wordpress.com/2014/08/gene-key-profile-template-version-2.jpg?w=1194" height="640" width="1280">
+			</div>
+		</div>
+	</section>
+	<!-- hero end-->
+	<!-- benefits -->
+	<section class="py-16 sm:py-20">
+		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl">
+			<div class="flex flex-col gap-12 sm:gap-16">
+				<h2 class="font-medium tracking-tight sm:text-4xl text-3xl uppercase">Gene Keys</h2>
+				<div class="grid lg:grid-cols-3 gap-8">
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+						<p class="text-sm">01</p>
+						<div class="flex flex-col gap-4">
+							<h3 class="font-semibold text-xl">Embrace Your Shadows, Discover Your Gifts</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">We all have both light and dark aspects within us. Gene Keys helps you understand your unique set of 'shadows,' turning them into stepping stones that lead to your innate 'gifts.' Your personal Gene Keys profile acts as a dynamic mirror—reflecting both your challenges and your potential back at you, empowering you to transform from the inside out.</p>
+						</div>
+					</div>
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+						<p class="text-sm">02</p>
+						<div class="flex flex-col gap-4">
+							<h3 class="font-semibold text-xl">Navigate Your Life with Clarity and Wisdom</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">Life often feels like a complex labyrinth. Gene Keys provides you with a compass—a guide that reveals the most direct route to fulfilling your destiny. Whether you're at a crossroads in your career, seeking deeper relationships, or yearning for spiritual enlightenment, your Gene Keys profile offers actionable insights that bring clarity to the chaos.</p>
+						</div>
+					</div>
+					<div class="flex flex-col gap-12 bg-zinc-100 dark:bg-primary-400/10 px-6 py-8 rounded-3xl">
+						<p class="text-sm">03</p>
+						<div class="flex flex-col gap-4">
+							<h3 class="font-semibold text-xl">A Lifelong Journey of Self-Discovery</h3>
+							<p class="text-base dark:text-primary-200/70 text-gray-700 sm:text-lg">The Gene Keys system isn't a one-time read; it's a lifelong exploration. As you grow and evolve, so does your understanding of your Gene Keys. This is more than a system; it's a living, breathing guidebook designed to evolve with you, continually offering fresh insights and wisdom.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- benefits end -->
+	<!-- cta -->
+	<section class="py-16 sm:py-20">
+		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl text-center">
+			<div
+				class="flex flex-col items-center bg-zinc-100 dark:bg-primary-100/10 gap-8 px-5 py-16 rounded-3xl sm:gap-10">
+				<div class="flex flex-col gap-4 sm:gap-6">
+					<h2 class="font-semibold tracking-tight sm:text-4xl text-3xl mx-auto max-w-sm">Are You curious about inner Transformation ?</h2>
+					<p class="dark:text-primary-200/70 text-primary-950/70 text-lg max-w-2xl mx-auto">Your journey towards a more fulfilling, enriched life begins here. Dive deep into your DNA to unlock the secrets that have been waiting for you since birth. Take the first step to transform your life with Gene Keys today.</p>
+				</div><a
+					class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"
+					href="/contact">Get started</a>
+			</div>
+		</div>
+	</section>
+	<!-- cta end -->
 </main>
+<!-- body end -->
 </template>
 <script setup>
 import HPPromo from '../components/HP-promo.vue';

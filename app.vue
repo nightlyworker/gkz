@@ -2,9 +2,9 @@
 	<SeoKit />
 	<OgImageScreenshot />
 	<ClientOnly>
-		<!--
-		<Header/>
-		-->
+		
+		<Headergk/>
+		
 	</ClientOnly>
 	
 	<NuxtPage />
@@ -19,7 +19,7 @@
 		
 </template>
 <script setup>
-import Header from './components/Header.vue';
+import Headergk from './components/Headergk.vue';
 import Footergk from './components/Footergk.vue'
 // import Wip from './components/Wip.vue' /// header
 
