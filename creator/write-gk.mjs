@@ -3,7 +3,7 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
 // 3.5-turbo-0613
 const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 7000  });
 
@@ -41,7 +41,7 @@ for (let gk of c.data) {
 
 	// text
 	const templateA = `You are Richard Rudd, the founder of Gene Keys. You always provide truthfull answer. You are expert in Gene Keys.\n 
-	Use markdown format (minimum lenght 4200 words and include sections: Description, Gift, Shadow, Sidhi, Affirmation, Reflection, Practices, Journal Prompts) and please create article for Gene Keys Activation Deck with "{product}".\n
+	Use markdown format (minimum lenght 4200 words and include sections: Description, Gift - ${item.gift}, Shadow - ${item.shadow}, Sidhi - ${item.sidhi}, Keywords, Affirmation, Reflection, Practices, Journal Prompts) and please create article for Gene Keys Activation Deck with "{product}".\n
 	`;
 	
 	const promptA = new PromptTemplate({
@@ -67,7 +67,7 @@ for (let gk of c.data) {
 
 	const chainB = new LLMChain({ llm: model, prompt: promptB });
 	const resB = await chainB.call({ product: article, name: name });
-	const description = resB.text
+	let description = resB.text
 
 	const templateC = `You are expert in search engine optimization SEO.\n 
 	Please, write me attractive answer (maximum 300 charactes and include "{name}") for question What is {name} ?\n
@@ -79,7 +79,7 @@ for (let gk of c.data) {
 
 	const chainC = new LLMChain({ llm: model, prompt: promptC });
 	const resC = await chainC.call({ product: article, name: name });
-	const answer = resC.text
+	let answer = resC.text
 	console.log ('Question: What is ',name, '?')
 	console.log('Answer: ', answer)
 
@@ -93,7 +93,7 @@ for (let gk of c.data) {
 	answer = answer.replaceAll(':','')
 
 	let content = ''
-	content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${description}\nquestion: What is ${name} ?\nanswer: ${answer}\n---\n`
+	content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${description}\nquestion: What is ${name} ?\nanswer: ${answer}\nshadow: ${item.shadow}\ngift: ${item.gift}\nsidhi: ${item.sidhi}\nprogrammingpartner: ${item.programmingpartner}\ncodonring: ${item.codonring}\naminoacid: ${item.aminoacid}\n---\n`
 	content = content + article
 	console.log('writing to ', filename)
 	const fw = await fs.writeFile(filename,  content);

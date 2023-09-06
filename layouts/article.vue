@@ -162,9 +162,11 @@ const {prev,next, page, navigation} = useContent()
 //const article = await this.$content('51').fetch();
 
 let intervalId = false
-console.log(page.value.question)
-const question = page
-console.log(question)
+
+// console.log(page.value.question)
+// const question = page
+// console.log(question)
+
 useSchemaOrg([
 	defineQuestion({
     name: page.value.question,
