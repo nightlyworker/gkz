@@ -52,13 +52,13 @@ Learning from our guides will provide you with a solid foundation and understand
 
 definePageMeta({
   documentDriven: false,
-	title: 'Human Design Zone',
+	title: 'Gene Keys Zone',
 	description: 'Discover the wonders of Human Design with Human Design Zone. Personal portal to Wisdom, Empowerment and Inner Alignment'
 })
 
 useSchemaOrg([
 	defineOrganization({
-			name: 'Human Design Zone',
+			name: 'Gene Keys Zone',
 			logo: '/hd1.svg',
 		}),
 ])

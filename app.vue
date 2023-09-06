@@ -14,14 +14,13 @@
 	<Wip/>
 	-->
 	
-	<!--
-	<Footer/>
-	-->
+	
+	<Footergk/>
 		
 </template>
 <script setup>
 import Header from './components/Header.vue';
-import Footer from './components/Footer.vue'
+import Footergk from './components/Footergk.vue'
 // import Wip from './components/Wip.vue' /// header
 
 // overides preffered color scheme
