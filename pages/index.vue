@@ -61,7 +61,7 @@
 					<p class="dark:text-primary-200/70 text-primary-950/70 text-lg max-w-2xl mx-auto">Your journey towards a more fulfilling, enriched life begins here. Dive deep into your DNA to unlock the secrets that have been waiting for you since birth. Take the first step to transform your life with Gene Keys today.</p>
 				</div><a
 					class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"
-					href="/contact">Get started</a>
+					href="/gene-key">Get started</a>
 			</div>
 		</div>
 	</section>
