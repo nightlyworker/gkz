@@ -54,6 +54,20 @@
           <!-- Your content -->
 					<div class="mx-auto max-w-prose">
 						<Podcast :title="page.title"/>
+					<!-- gk card -->
+					<div class="bg-zinc-100 py-4 rounded-2xl mt-4 text-sm">
+
+						Gene Key: {{ getGkNumber(page.title) }}
+						Programming Partner: {{ page.programmingpartner }}
+						Codon Ring: {{ page.codonring }}
+						Aminoacid: {{ page.aminoacid }}
+						Shadow: {{ page.shadow }}
+						Gift: {{ page.gift }}
+						Sidhi: {{ page.sidhi }}
+
+
+				</div>
+					<!-- gk card end -->
 					<article class="pt-8 prose prose-h1:text-center">
 					<slot> </slot>
 				</article>
@@ -186,6 +200,14 @@ useSchemaOrg([
 	})
 ])
 
+
+function getGkNumber (title) {
+	//var txt = "#div-name-1234-characteristic:561613213213";
+var numb = title.match(/\d/g);
+numb = numb.join("");
+console.log(numb);
+return numb
+}
 
 onMounted(() => {
 	intervalId = setInterval(() => {
