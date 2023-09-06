@@ -22,10 +22,10 @@ const { data: navigation } = await useAsyncData('navigation', () => fetchContent
 
 const nav = JSON.parse(JSON.stringify(navigation.value))
 
-console.log(nav)
+//console.log(nav)
 const deck = ref([])
 for (let item of nav) {
-	console.log(item._path)
+	//console.log(item._path)
 	if (item._path === '/gene-key') {
 		for (let iitem of item.children) {
 			if (iitem.layout === 'article') {
