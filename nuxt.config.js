@@ -32,7 +32,7 @@ export default defineNuxtConfig({
 	'/guides': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
 
 	// folders
-	'/line/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
+	'/gene-key/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/channel/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/gate/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/profile/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
@@ -112,7 +112,7 @@ robots: {
 },
 gtag: {
 	initialConsent: (process.env.NODE_ENV === 'development') ? false : true,
-	id: 'G-P6D5RHGDR8' //g', 'G-P6D5RHGDR8');
+	id: 'G-4FGL9FG3WR' //g', 'G-P6D5RHGDR8');
 },
 // https://vee-validate.logaretm.com/v4/integrations/nuxt/
 veeValidate: {

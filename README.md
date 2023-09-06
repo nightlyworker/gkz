@@ -1,6 +1,7 @@
 # hours
 2023-09-03 3h (first draft)
 2023-09-05 5h (creator configuration for GK)
+2023-09-06 4h (content + deploy + layout)
 
 
 

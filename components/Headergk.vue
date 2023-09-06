@@ -59,7 +59,7 @@
 					</div>
 				</a><a
 					class="transition focus-visible:outline-none group py-6 dark:text-black-200 font-medium inline-flex sm:py-8 sm:text-4xl text-3xl text-black-950 tracking-tight"
-					href="/about">
+					href="#">
 					<div
 						class="flex items-center justify-between dark:group-focus-visible:outline-black-200 group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2 group-focus-visible:outline-black-950 rounded-3xl flex-1">
 						<div class="flex items-center gap-6"><span class="text-xs">02</span> <span
@@ -87,7 +87,7 @@
 					</div>
 				</a><a
 					class="transition focus-visible:outline-none group py-6 dark:text-black-200 font-medium inline-flex sm:py-8 sm:text-4xl text-3xl text-black-950 tracking-tight"
-					href="/contact">
+					href="#">
 					<div
 						class="flex items-center justify-between dark:group-focus-visible:outline-black-200 group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2 group-focus-visible:outline-black-950 rounded-3xl flex-1">
 						<div class="flex items-center gap-6"><span class="text-xs">04</span> <span

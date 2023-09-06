@@ -18,6 +18,7 @@
 		</div>
 	</section>
 	<!-- hero end-->
+	<Deck/>
 	<!-- benefits -->
 	<section class="py-16 sm:py-20">
 		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl">

@@ -7,12 +7,12 @@
 			<div class="flex flex-col items-start gap-6 max-w-sm sm:gap-8"><img alt="Stone" class="h-8 w-auto" height="40"
 					width="65" :src="isDark ? '/gkz-logo.svg' : '/gkz-logo.svg'"
 					src="/gkz-logo.svg">
-				<p class="text-base dark:text-primary-200/70 text-primary-950/70">Unlock the mysteries of your unique genetic blueprint through our comprehensive Gene Keys website, where science and spirituality converge to guide you on a transformative journey to self-discovery, purpose, and fulfillment.</p>
+				<p class="text-base dark:text-primary-200/70 text-primary-950/70">Unlock the mysteries of your unique genetic blueprint through our comprehensive <a href="/">Gene Keys Zone</a>, where science and spirituality converge to guide you on a transformative journey to self-discovery, purpose, and fulfillment. <a href="/sitemap">Sitemap</a></p>
 				<p class="dark:text-primary-200/70 text-primary-950/70 text-sm">© 2023 Gene Keys Zone</p>
 			</div>
 			<div class="grid gap-8 flex-1 grid-cols-1 max-w-xl sm:grid-cols-3">
 				<div class="flex flex-col gap-4">
-					<p class="text-base font-medium">Social</p>
+					<p class="text-2xl font-medium">☵</p>
 							<!-- b start -->
 							<Breadcrumbs>
     <template #breadcrumb="{ to, title }">
@@ -53,34 +53,34 @@
 					-->
 				</div>
 				<div class="flex flex-col gap-4">
-					<p class="text-base font-medium">Gene Keys</p>
+					<p class="text-2xl font-medium">☲</p>
 					<ul class="flex flex-col gap-3" role="list">
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
 								href="/gene-key">Gene Keys Deck</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/about">About</a></li>
+								href="#">About</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/pricing">Pricing</a></li>
+								href="#">Pricing</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/contact">Contact</a></li>
+								href="#">Contact</a></li>
 					</ul>
 				</div>
 				<div class="flex flex-col gap-4">
-					<p class="text-base font-medium">Legal</p>
+					<p class="text-2xl font-medium">☳</p>
 					<ul class="flex flex-col gap-3" role="list">
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/privacy">Privacy</a></li>
+								href="https://humandesign.zone">Human Design Zone</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/404">404</a></li>
+								href="https://humandesign.zone/human-design-encyclopedia">Human Design Encyclopedia</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="/styleguide">Styleguide</a></li>
+								href="/gene-key/gene-key-1">Gene Key 1</a></li>
 					</ul>
 				</div>
 			</div>
