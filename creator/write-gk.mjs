@@ -3,12 +3,12 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
 // 3.5-turbo-0613
 const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 7000  });
 
 const dir = '../content/gene-key/'
-const file = 'gene-key-1'
+
 
 const ff = await fs.readFile('./Keys-All Keys - All Data.csv', { encoding: 'utf8' });
 
@@ -19,26 +19,27 @@ import Papa from 'papaparse';
 let c = Papa.parse(ff, { header: false,delimiter: ','});
 
 for (let gk of c.data) {
+	
 	if (gk[0] === 'Key') {
 		continue
 	}
+	
 	let item = {
 		no: gk[0],
 		title: gk[3],
 		shadow: gk[4],
 		gift: gk[5],
 		sidhi: gk[6],
-		programmingPartner: gk[10],
+		programmingpartner: gk[10],
 		physiology: gk[11],
-		codonRing: gk[12],
-		aminoAcid: gk[13]
+		codonring: gk[12],
+		aminoacid: gk[13]
 	}
+	const filename = dir + 'gene-key-'+item.no+'.md'
 	let name = 'Gene Key '+ item.no + ' ' + item.title
 	// Affirmation/Reflect/Practices/Journal Prompts
-	//let content = ''
-	//content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${tldrFixed}\n---\n`
 
-
+	// text
 	const templateA = `You are Richard Rudd, the founder of Gene Keys. You always provide truthfull answer. You are expert in Gene Keys.\n 
 	Use markdown format (minimum lenght 4200 words and include sections: Description, Gift, Shadow, Sidhi, Affirmation, Reflection, Practices, Journal Prompts) and please create article for Gene Keys Activation Deck with "{product}".\n
 	`;
@@ -54,8 +55,44 @@ for (let gk of c.data) {
 	const res = await chainA.call({ product: name });
 	const article = res.text
 
-	console.log(article)
+	// seo
+	const templateB = `You are expert in search engine optimization SEO.\n 
+	Please, write me attractive meta description (maximum 155 charactes and include "{name}") for article "{product}".\n
+	`;
 	
+	const promptB = new PromptTemplate({
+		template: templateB,
+		inputVariables: ["product", "name"],
+	});
+
+	const chainB = new LLMChain({ llm: model, prompt: promptB });
+	const resB = await chainB.call({ product: article, name: name });
+	const description = resB.text
+
+	const templateC = `You are expert in search engine optimization SEO.\n 
+	Please, write me attractive answer (maximum 300 charactes and include "{name}") for question What is {name} ?\n
+	`;
+	const promptC = new PromptTemplate({
+		template: templateC,
+		inputVariables: ["product", "name"],
+	});
+
+	const chainC = new LLMChain({ llm: model, prompt: promptC });
+	const resC = await chainC.call({ product: article, name: name });
+	const answer = resC.text
+	console.log ('Question: What is ',name, '?')
+	console.log('Answer: ', answer)
+
+
+	console.log(article)
+	console.log(description)
+
+	let content = ''
+	content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${description}\nquestion: What is ${name} ?\nanswer: ${answer}\n---\n`
+	content = content + article
+	console.log('writing to ', filename)
+	const fw = await fs.writeFile(filename,  content);
+	console.log('done', item.no)
 	process.exit(1)
 }
 
