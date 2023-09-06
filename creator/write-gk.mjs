@@ -86,6 +86,11 @@ for (let gk of c.data) {
 
 	console.log(article)
 	console.log(description)
+	// remove charts for front matter
+	description = description.replaceAll(':','')
+	description = description.replaceAll('"','')
+	answer = answer.replaceAll('"','')
+	answer = answer.replaceAll(':','')
 
 	let content = ''
 	content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${description}\nquestion: What is ${name} ?\nanswer: ${answer}\n---\n`
