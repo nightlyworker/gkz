@@ -162,21 +162,28 @@ const {prev,next, page, navigation} = useContent()
 //const article = await this.$content('51').fetch();
 
 let intervalId = false
-
+console.log(page.value.question)
+const question = page
+console.log(question)
 useSchemaOrg([
+	defineQuestion({
+    name: page.value.question,
+    acceptedAnswer: page.value.answer,
+  }),
 	defineArticle({
-		headline: page.title,
-		description: page.description,
+		headline: page.value.title,
+		description: page.value.description,
 		//image: '/articles/article-title-image.jpg',
 		datePublished: new Date().toISOString(),
 		dateModified: new Date().toISOString(),
 		// attaching an author when the identity is an organization
 		author: {
-			name: 'Human Design Zone',
-			url: 'https://humandesign.zone',
+			name: 'Gene Keys Zone',
+			url: 'https://genekeys.zone',
 		}
 	})
 ])
+
 
 onMounted(() => {
 	intervalId = setInterval(() => {
