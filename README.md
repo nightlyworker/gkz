@@ -1,5 +1,14 @@
 # hours
 2023-09-03 3h (first draft)
+2023-09-05 5h (creator configuration for GK)
+
+
+
+## **Action Steps:**
+1. **Embrace Change:** Don't resist change or fear it. Embrace it as a natural part of life and a source of growth and evolution.
+2. **Stay Present:** Don't get stuck in routines or patterns. Stay present and engaged, always open to new experiences and perspectives.
+3. **See the Divine in All Things:** Look for the divine in everything and everyone. See the beauty in the chaos and the order, the perfection in the imperfection.
+
 
 
 

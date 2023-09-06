@@ -3,9 +3,9 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
-
-const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0.2, modelName: "gpt-3.5-turbo-0613", temperature: 0, maxTokens: 800  });
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+// 3.5-turbo-0613
+const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 7000  });
 
 const dir = '../content/gene-key/'
 const file = 'gene-key-1'
@@ -17,7 +17,6 @@ import Papa from 'papaparse';
 // let c = Papa.parse('./Keys-All Keys - All Data.csv', {header: true, delimiter: ',', quoteChar: '', escapeChar: ''});
 
 let c = Papa.parse(ff, { header: false,delimiter: ','});
-
 
 for (let gk of c.data) {
 	if (gk[0] === 'Key') {
@@ -34,8 +33,30 @@ for (let gk of c.data) {
 		codonRing: gk[12],
 		aminoAcid: gk[13]
 	}
-	console.log(item)
-	//process.exit(1)
+	let name = 'Gene Key '+ item.no + ' ' + item.title
+	// Affirmation/Reflect/Practices/Journal Prompts
+	//let content = ''
+	//content = content + `---\ntitle: ${name}\nlayout: article\ndescription: ${tldrFixed}\n---\n`
+
+
+	const templateA = `You are Richard Rudd, the founder of Gene Keys. You always provide truthfull answer. You are expert in Gene Keys.\n 
+	Use markdown format (minimum lenght 4200 words and include sections: Description, Gift, Shadow, Sidhi, Affirmation, Reflection, Practices, Journal Prompts) and please create article for Gene Keys Activation Deck with "{product}".\n
+	`;
+	
+	const promptA = new PromptTemplate({
+		template: templateA,
+		inputVariables: ["product"],
+	});
+
+	const chainA = new LLMChain({ llm: model, prompt: promptA });
+	
+	console.log(name)
+	const res = await chainA.call({ product: name });
+	const article = res.text
+
+	console.log(article)
+	
+	process.exit(1)
 }
 
 
