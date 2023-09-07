@@ -11,12 +11,12 @@ ssh -i /home/martin/lab/h2/_infra/v2 root@10.20.40.1 'cd /home/genekeys.zone && 
 echo 'Deploy finished'
 
 
-#curl -X POST "https://api.cloudflare.com/client/v4/zones/82fd8fbb686a7ca5e8aefbeda7aed7e4/purge_cache" \
-#     -H "X-Auth-Email: lmymarketing1@gmail.com" \
-#     -H "X-Auth-Key: a7500b78bd6a89e4905da7129a65326d5b20c" \
-#     -H "Content-Type: application/json" \
-#     --data '{"purge_everything":true}'
-# echo 'Cache cleated'
+curl -X POST "https://api.cloudflare.com/client/v4/zones/1c2d25db1007e451e2791fe4f35854b7/purge_cache" \
+     -H "X-Auth-Email: lmymarketing1@gmail.com" \
+     -H "X-Auth-Key: a7500b78bd6a89e4905da7129a65326d5b20c" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
+echo 'Cache cleated'
 
 #curl https://www.google.com/webmasters/tools/ping\?sitemap\=https://humandesign.zone/sitemap.xml
 #echo 'Google notified'
