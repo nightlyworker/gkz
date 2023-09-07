@@ -129,7 +129,7 @@
 	<!--
 <Topics></Topics>
 <More></More>
--->
+-->visual-studio-code-bin 
 <!--- notify me start -->
 <!--
 <div class="bg-white py-16 sm:py-24">
@@ -205,7 +205,7 @@ function getGkNumber (title) {
 	//var txt = "#div-name-1234-characteristic:561613213213";
 var numb = title.match(/\d/g);
 numb = numb.join("");
-console.log(numb);
+//console.log(numb);
 return numb
 }
 
