@@ -3,7 +3,7 @@ import fs from 'fs/promises'
 import { OpenAI } from "langchain/llms/openai";
 import { PromptTemplate } from "langchain/prompts";
 import { LLMChain } from "langchain/chains";
-const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
+const openaiApiKey = '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' //process.env.OPENAI_API_KEY || ''
 // 3.5-turbo-0613
 const model = new OpenAI({ openAIApiKey:openaiApiKey, temperature: 0, modelName: "gpt-4", maxTokens: 6940  });
 
@@ -20,7 +20,7 @@ let c = Papa.parse(ff, { header: false,delimiter: ','});
 
 for (let gk of c.data) {
 	
-	if (gk[0] === 'Key' || parseFloat(gk[0]) < 2) {
+	if (gk[0] === 'Key' || parseFloat(gk[0]) < 1) {
 		continue
 	}
 	
@@ -45,9 +45,9 @@ for (let gk of c.data) {
 	Use markdown format (minimum lenght 4200 words and include sections: Description, Gift - ${item.gift}, Shadow - ${item.shadow}, Sidhi - ${item.sidhi}, Keywords, Affirmation, Reflection, Practices, Journal Prompts) and please create article for Gene Keys Activation Deck with "{product}".\n
 	`;
 	*/
-
+  // SEBEVYJÁDŘENÍ	G-CENTRUM 	SVĚŽEST 	ENTROPIE 	DEPRESIVITA 	HOREČNATOST 	KRÁSA
 	const templateA = `Jsi Richard Rudd, zakladatel uceni genovych klicu. Vzdy odpovidas pravdive. Jsi expert na Genove klíče a odpovidas v ceskem jazyce. Pokud jsou nektera slova v anglictine tak je prosim preloz do ceskeho jazyka.\n 
-	Pouzij markdown format (minimalni delka 4200 slov a zahrn sekce: Popis, Dar - ${item.gift}, Stin - ${item.shadow}, Sidhi - ${item.sidhi}, Klíčová slova, Životní téma, Afirmace, Reflexe, Praxe, Podněty pro deník) a prosim vytvor clanek pro Genový klíč aktivacni deck s "{product}".\n
+	Pouzij markdown format (minimalni delka 4200 slov a zahrn sekce: Popis, Dar - SVĚŽEST, Stin - ENTROPIE  , Sidhi - KRÁSA, Klíčová slova, Životní téma, Afirmace, Reflexe, Praxe, Podněty pro deník) a prosim vytvor clanek pro Genový klíč aktivacni deck s Genový klíč 1 - OD ENTROPIE K SYNTROPII .\n
 	`;
 	
 	const promptA = new PromptTemplate({

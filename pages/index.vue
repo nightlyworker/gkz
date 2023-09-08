@@ -84,7 +84,7 @@ Learning from our guides will provide you with a solid foundation and understand
 definePageMeta({
   documentDriven: false,
 	title: 'Gene Keys Zone',
-	description: 'Discover the wonders of Human Design with Human Design Zone. Personal portal to Wisdom, Empowerment and Inner Alignment'
+	description: 'Discover the wonders of Gene Keys with Gene Keys Zone. Personal portal to Wisdom, Empowerment and Inner Alignment'
 })
 
 useSchemaOrg([
