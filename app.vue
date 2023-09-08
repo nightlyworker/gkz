@@ -1,11 +1,8 @@
 <template>
 	<SeoKit />
 	<OgImageScreenshot />
-	<ClientOnly>
-		
+			
 		<Headergk/>
-		
-	</ClientOnly>
 	
 	<NuxtPage />
 	
