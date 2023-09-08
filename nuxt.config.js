@@ -15,31 +15,15 @@ export default defineNuxtConfig({
  routeRules: {
 	// pages
 	'/': { sitemap: { changefreq: 'daily', priority: 1, lastmod: dd } },
-	'/human-design-encyclopedia': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
-	'/crash-course': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
-	'/bodygraph': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
+
 	'/sitemap': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
 
 	// directory index pages
-	'/line': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/channel': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/gate': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/profile': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/authority': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/center': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/definition': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
-	'/type': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
+	'/gene-key': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
 	'/guides': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
 
 	// folders
 	'/gene-key/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/channel/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/gate/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/profile/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/authority/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/center/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/definition/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/type/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/guides/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/crash-course/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
  },
