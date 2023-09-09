@@ -1,6 +1,7 @@
 ---
 title: Gene Keys Course
 layout: directory
+description: Gene Keys free course designed to guide you gently into the vast world of the Gene Keys, providing a comprehensive overview of its foundational concepts, structures, and transformative potential 
 ---
 # Gene Keys Course
 This course is designed to guide you gently into the vast world of the Gene Keys, providing a comprehensive overview of its foundational concepts, structures, and transformative potential. From understanding the spectrum of consciousness — the Shadows, Gifts, and Siddhis — to generating and deciphering your unique Hologenetic Profile, we'll be walking hand in hand through each step.
