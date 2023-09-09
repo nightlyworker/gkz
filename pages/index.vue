@@ -90,7 +90,7 @@ definePageMeta({
 useSchemaOrg([
 	defineOrganization({
 			name: 'Gene Keys Zone',
-			logo: '/hd1.svg',
+			logo: '/apple-icon-144x144.png',
 		}),
 ])
 
