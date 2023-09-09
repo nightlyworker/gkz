@@ -9,7 +9,9 @@
 				<div class="flex flex-col items-start gap-8 sm:gap-10">
 					<div class="flex flex-col gap-4 sm:gap-6 items-start max-w-xl">
 						<h1 class="font- uppercase font-semibold tracking-tight lg:text-6xl sm:text-5xl text-4xl">Gene Keys Zone</h1>
-						<p class="dark:text-primary-200/70 text-primary-950/70 text-lg sm:text-xl">Gene Keys: The Ultimate Guide to Self-Discovery and Transformation</p>
+						<p class="dark:text-primary-200/70 text-primary-950/70 text-lg sm:text-xl">The Gene Keys system is a transformative tool for self-understanding, drawing from ancient wisdom like the I Ching and blending it with modern sciences. Comprising 64 archetypes, it provides a unique perspective on human behaviors, ranging from their shadow aspects to their highest potentials. By studying the Gene Keys, individuals can embark on a journey of self-discovery, understanding their life patterns, challenges, and innate gifts.
+
+</p>
 					</div><a
 						class="font-display items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"
 						href="#">Get started</a>
