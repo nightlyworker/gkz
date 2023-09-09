@@ -8,7 +8,7 @@
 					width="65" :src="isDark ? '/gkz-logo.svg' : '/gkz-logo.svg'"
 					src="/gkz-logo.svg">
 				<p class="text-base dark:text-primary-200/70 text-primary-950/70">Unlock the mysteries of your unique genetic blueprint through our comprehensive <a href="/">Gene Keys Zone</a>, where science and spirituality converge to guide you on a transformative journey to self-discovery, purpose, and fulfillment. <a href="/sitemap">Sitemap</a></p>
-				<p class="dark:text-primary-200/70 text-primary-950/70 text-sm">© 2023 Gene Keys Zone</p>
+				<p class="dark:text-primary-200/70 text-primary-950/70 text-sm">© 2023 <a href="/">Gene Keys Zone</a> - proudly brought to you by a vessel of the divine life force</p>
 			</div>
 			<div class="grid gap-8 flex-1 grid-cols-1 max-w-xl sm:grid-cols-3">
 				<div class="flex flex-col gap-4">
