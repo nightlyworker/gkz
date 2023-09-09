@@ -59,11 +59,11 @@
 					</div>
 				</a><a
 					class="transition focus-visible:outline-none group py-6 dark:text-black-200 font-medium inline-flex sm:py-8 sm:text-4xl text-3xl text-black-950 tracking-tight"
-					href="#">
+					href="/course">
 					<div
 						class="flex items-center justify-between dark:group-focus-visible:outline-black-200 group-focus-visible:outline group-focus-visible:outline-2 group-focus-visible:outline-offset-2 group-focus-visible:outline-black-950 rounded-3xl flex-1">
 						<div class="flex items-center gap-6"><span class="text-xs">02</span> <span
-								class="group-hover:underline">About</span></div><svg aria-hidden="true"
+								class="group-hover:underline">Free Course</span></div><svg aria-hidden="true"
 							class="h-6 w-6 dark:text-black-400 text-black-600 sm:h-8 sm:w-8" fill="currentColor"
 							viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<path
