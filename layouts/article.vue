@@ -68,7 +68,7 @@
 
 				</div>
 					<!-- gk card end -->
-					<article class="pt-8 prose prose-h1:text-center">
+					<article class="pt-8 prose-h1:text-center prose">
 					<slot> </slot>
 				</article>
 				</div>
