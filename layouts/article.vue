@@ -182,6 +182,9 @@ let intervalId = false
 // console.log(question)
 
 useSchemaOrg([
+	defineWebPage({
+    '@type': 'FAQPage',
+  }),
 	defineQuestion({
     name: page.value.question,
     acceptedAnswer: page.value.answer,
