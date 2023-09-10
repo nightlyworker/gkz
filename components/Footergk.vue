@@ -63,7 +63,7 @@
 								href="/course">Free Course</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
-								href="#">Pricing</a></li>
+								href="/guides/cheatsheet">Gene Keys Cheatsheet</a></li>
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
 								href="#">Contact</a></li>

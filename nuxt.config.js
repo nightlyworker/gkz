@@ -21,11 +21,12 @@ export default defineNuxtConfig({
 	// directory index pages
 	'/gene-key': { sitemap: { changefreq: 'daily', priority: 0.9, lastmod: dd } },
 	'/guides': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
+	'/course': { sitemap: { changefreq: 'daily', priority: 0.8, lastmod: dd } },
 
 	// folders
 	'/gene-key/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
 	'/guides/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
-	'/crash-course/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
+	'/course/*': { sitemap: { changefreq: 'daily', priority: 0.7, lastmod: dd } },
  },
 
  devtools: { enabled: false },
