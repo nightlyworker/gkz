@@ -14,7 +14,7 @@
 </p>
 					</div><a
 						class="font-display items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base bg-black border border-transparent dark:bg-primary-400 dark:focus-visible:outline-primary-400 dark:hover:bg-primary-300 dark:text-primary-950 focus-visible:outline-offset-2 focus-visible:outline-primary-600 font-medium hover:bg-primary-700 justify-center px-5 py-3 rounded-full text-white transition"
-						href="#">Get started</a>
+						href="/gene-key">Gene Keys Action Desk</a>
 				</div><img alt="Hero picture" class="mx-auto h-2/3 w-2/3 grayscale rounded-3xl" src="https://genekeysdiary.files.wordpress.com/2014/08/gene-key-profile-template-version-2.jpg?w=1194" height="640" width="1280">
 			</div>
 		</div>
