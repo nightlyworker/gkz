@@ -2,8 +2,8 @@
 2023-09-03 3h (first draft)
 2023-09-05 5h (creator configuration for GK)
 2023-09-06 4h (content + deploy + layout)
-
-
+2023-09-09 4h (manual content - course)
+2023-09-10 1h (content cheatsheet)
 
 ## **Action Steps:**
 1. **Embrace Change:** Don't resist change or fear it. Embrace it as a natural part of life and a source of growth and evolution.

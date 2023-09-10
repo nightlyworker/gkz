@@ -5,7 +5,7 @@ layout: article
 question: What is Gene Key Cheatsheet ?
 answer: A Gene Keys Cheatsheet is a reference guide summarizing the main concepts and archetypes of the Gene Keys system. It offers quick insights for easier navigation and understanding of ones Hologenetic Profile, serving as a handy companion to the Gene Keys.
 ---
-## Gene Keys Cheatsheet
+# Gene Keys Cheatsheet
 
 **Gene Keys** is a profound system that bridges ancient mystical teachings with modern genetic understanding. Through 64 archetypes, it provides a lexicon of consciousness designed to unlock human potential, showing how every challenge can be transformed into a gift and ultimately into an enlightened form.
 
