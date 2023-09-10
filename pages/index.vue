@@ -87,8 +87,8 @@ Learning from our guides will provide you with a solid foundation and understand
 
 definePageMeta({
   documentDriven: false,
-	title: 'Gene Keys Zone',
-	description: 'Discover the wonders of Gene Keys with Gene Keys Zone. Personal portal to Wisdom, Empowerment and Inner Alignment'
+	//title: 'Gene Keys Zone',
+	description: 'Explore Gene Keys Zone, Your gateway to free resources, deep insights, and transformative journeys. Decode lifes mysteries and navigate your unique profile.'
 })
 
 useSchemaOrg([
