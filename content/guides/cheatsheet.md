@@ -15,20 +15,6 @@ answer: A Gene Keys Cheatsheet is a reference guide summarizing the main concept
 2. **The Gift**: Each Shadow has a potential Gift, which is the transformed state of that shadow. It signifies the latent potential within the challenge.
 3. **The Siddhi**: This is the highest divine potential, an enlightened trait. When a person fully transmutes a shadow and embodies the gift, they can further transcend to experience the Siddhi.
 
-## A Glimpse into the 64 Gene Keys
-
-While the scope is vast, here are expanded details on the first few Gene Keys to offer deeper insight:
-
-1. **1st Gene Key**  
-   - **Shadow**: *Entropy* - The breaking down of energy and matter. Represents stagnation and decay in our lives.
-   - **Gift**: *Freshness* - A sense of renewal and a fresh perspective. The ability to see every moment as unique.
-   - **Siddhi**: *Beauty* - Perceiving the inherent beauty in all things; an enlightened perspective.
-2. **2nd Gene Key**  
-   - **Shadow**: *Dislocation* - Feeling out of sync or misplaced. A sense of not belonging.
-   - **Gift**: *Orientation* - Finding one's place and direction. Guided by an inner compass.
-   - **Siddhi**: *Unity* - A state of oneness, where separateness dissolves.
-...  
-
 ## Deep Dive into the Activation Sequence
 
 This is the foundational sequence, shedding light on one's purpose and genius.
