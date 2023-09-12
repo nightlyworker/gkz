@@ -45,7 +45,9 @@
 						<Sidebar/>
 						
 						-->
+						<client-only>
 						<Sidebar :navigation="navigation"/>
+						</client-only>
           </nav>
         </div>
         <main class="lg:col-span-9 xl:col-span-6">
@@ -156,7 +158,9 @@
 
 
 		<!-- prev next end -->
+		<client-only>
 		<Readingbar class="max-w-7xl mx-auto rounded-2xl"/>
+		</client-only>
   </div>
 </template>
 
@@ -169,6 +173,7 @@ import Topics from '../components/Article/Topics.vue';
 import Readingbar from '../components/Article/Readingbar.vue';
 import Sidebar from '../components/Article/Sidebar.vue'
 import Podcast from '../components/Article/Podcast.vue';
+//import { only } from 'node:test';
 const {prev,next, page, navigation} = useContent()
 // https://github.com/nuxtlabs/ui/blob/278a1ea93c23226c9131982759751e361104ff6f/docs/components/docs/DocsPrevNextCard.vue
 // https://github.com/miracleonyenma/mark-III/blob/main/components/Toc.vue

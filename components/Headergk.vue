@@ -34,6 +34,7 @@
 					</path>
 				</svg></button></div>
 	</div>
+	
 	<transition 
   enter-from-class="scale-y-[100%] opacity-0"
   enter-active-class="transition duration-700">
