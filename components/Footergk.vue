@@ -71,6 +71,9 @@
 				</div>
 				<div class="flex flex-col gap-4">
 					<p class="text-2xl font-medium">☳</p>
+					<p>More coming soon</p>
+
+					<!--
 					<ul class="flex flex-col gap-3" role="list">
 						<li><a
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
@@ -82,6 +85,7 @@
 								class="items-center inline-flex focus-visible:outline focus-visible:outline-2 text-base dark:focus-visible:outline-primary-200 focus-visible:outline-primary-950 gap-1 hover:underline rounded-md"
 								href="/gene-key/gene-key-1">Gene Key 1</a></li>
 					</ul>
+					-->
 				</div>
 			</div>
 		</div>
