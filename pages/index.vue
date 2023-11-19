@@ -20,6 +20,29 @@
 		</div>
 	</section>
 	<!-- hero end-->
+	<section class="py-16 sm:py-20">
+		<div class="mx-auto lg:px-8 lg:max-w-7xl px-4 sm:px-6 max-w-2xl">
+		<h2 class="font-medium tracking-tight sm:text-4xl text-3xl uppercase">Gene Keys ☳ The Universe Within</h2>
+		<p>
+
+Our world is filled with mysteries, but none quite as profound as the one found within us - our very own genetic code. Each face, each story, holds a secret language that's been passed down through millennia. The Gene Keys are a bridge to deciphering this secret.
+
+This is not just science. It's an intersection of wisdom from ancient traditions and modern genetic understanding. Derived from the ancient Chinese I Ching, the 64 hexagrams have been interpreted to link directly to our human DNA.
+
+
+Each hexagram corresponds to one of the 64 Gene Keys, providing insights into our highest potential and the shadows that can hold us back. Diving into the Gene Keys is a journey of self-discovery. People around the globe have been moved, transformed, and awakened to their true nature.
+
+
+Exploring the Gene Keys is a voyage into unknown territories. Only this time, the uncharted realms are within us. Through understanding our genetic imprints, we unlock not just our personal mysteries, but we weave together the story of humanity.
+
+
+The Gene Keys invite us to embark on the greatest adventure of all – the journey inward. For in our genes, lie the keys to our past, present, and the infinite possibilities of our future.
+
+
+
+		</p>
+	</div>
+	</section>
 	<!--
 	<Deck/>
 	-->
