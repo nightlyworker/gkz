@@ -110,7 +110,7 @@ Learning from our guides will provide you with a solid foundation and understand
 
 definePageMeta({
   documentDriven: false,
-	//title: 'Gene Keys Zone',
+	title: 'Gene Keys Zone',
 	description: 'Explore Gene Keys Zone, Your gateway to free resources, deep insights, and transformative journeys. Decode lifes mysteries and navigate your unique profile.'
 })
 

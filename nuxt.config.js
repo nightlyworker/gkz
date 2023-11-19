@@ -9,7 +9,13 @@ export default defineNuxtConfig({
  */
  
  app:{
-	baseURL: '/'
+	baseURL: '/',
+	head: {
+		titleTemplate: '%pageTitle' //'%pageTitle %titleSeparator %siteName'
+	}
+ },
+ experimental: {
+	inlineSSRStyles: false
  },
  // 2005-01-01
  routeRules: {
@@ -114,19 +120,19 @@ appConfig: {
   },
 },
 delayHydration: {
-	mode: 'manual',
+	mode: 'mounted',
 	// enables nuxt-delay-hydration in dev mode for testing
 	debug: false // process.env.NODE_ENV === 'development'
 },
 // 'nuxt-delay-hydration'
- modules: ['@nuxthq/ui','@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-gtag', '@vee-validate/nuxt'],
+ modules: ['@nuxthq/ui','@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-gtag', '@vee-validate/nuxt', 'nuxt-delay-hydration'],
 
  buildModules: [
 	//'@nuxtjs/google-fonts'
  ],
 
  googleFonts: {
-	download:false,
+	download:true,
   families: {
     Fraunces: { wght: [400,600,700,800]},
 		Inter: true,
