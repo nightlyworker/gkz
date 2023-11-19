@@ -4,6 +4,7 @@
 2023-09-06 4h (content + deploy + layout)
 2023-09-09 4h (manual content - course)
 2023-09-10 1h (content cheatsheet)
+2923-11-19 XX upgrade + seo suffix removal
 
 ## **Action Steps:**
 1. **Embrace Change:** Don't resist change or fear it. Embrace it as a natural part of life and a source of growth and evolution.
@@ -11,7 +12,7 @@
 3. **See the Divine in All Things:** Look for the divine in everything and everyone. See the beauty in the chaos and the order, the perfection in the imperfection.
 
 
-
+curl -so /dev/null https://genekeys.zone/gene-key/gene-key-13 -w '%{size_download}'
 
 ---
 write detailed and informative article about gene keys 2 with tile "Gene Key 2 - [INSERT NAME]"
