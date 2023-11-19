@@ -120,7 +120,7 @@ appConfig: {
   },
 },
 delayHydration: {
-	mode: 'mounted',
+	mode: 'mount',
 	// enables nuxt-delay-hydration in dev mode for testing
 	debug: false // process.env.NODE_ENV === 'development'
 },
