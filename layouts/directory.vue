@@ -78,6 +78,11 @@ useSchemaOrg([
 	})
 ])
 
+defineOgImageComponent('Custom', {
+  title: page.title,
+  description: 'Gene Keys Zone',
+  theme: '#ff0000',
+})
 
 /*
 const { navigation } = useContent()

@@ -17,6 +17,13 @@ export default defineNuxtConfig({
  experimental: {
 	inlineSSRStyles: false
  },
+ ogImage: {
+	runtimeChromium: false,
+	defaults: {
+		component: 'OgImage',
+		extension: 'jpg',
+	},
+ },
  // 2005-01-01
  routeRules: {
 	// pages
@@ -125,7 +132,7 @@ delayHydration: {
 	debug: false // process.env.NODE_ENV === 'development'
 },
 // 'nuxt-delay-hydration'
- modules: ['@nuxthq/ui','@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-gtag', '@vee-validate/nuxt', 'nuxt-delay-hydration'],
+ modules: ['@nuxt/ui','@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-gtag', 'nuxt-og-image'],
 
  buildModules: [
 	//'@nuxtjs/google-fonts'

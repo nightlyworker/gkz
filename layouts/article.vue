@@ -208,6 +208,13 @@ useSchemaOrg([
 	})
 ])
 
+defineOgImageComponent('Custom', {
+  title: page.title,
+  description: 'Gene Keys Zone',
+  theme: '#ff0000',
+})
+
+
 function isGK () {
 	if (page.value._path.includes('/gene-key/')) {
 		return true

@@ -1,6 +1,5 @@
 <template>
 	<SeoKit />
-	<OgImageScreenshot />
 			
 		<Headergk/>
 	
