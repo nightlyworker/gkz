@@ -82,8 +82,12 @@ export default defineNuxtConfig({
 },
 // extends: ["nuxt-lego"],
 // https://github.com/harlan-zw/nuxt-seo-kit
- extends: ['nuxt-seo-kit', 'nuxt-umami'],
-
+extends: ['nuxt-seo-kit', 'nuxt-umami'],
+// The nuxt-og-image module requires a site.url to be set:
+// the site is only for nuxt-og-image
+site: {
+	url: 'https://genekeys.zone'
+},
 runtimeConfig: {
 	public: {
 		indexable: true,
@@ -130,6 +134,10 @@ delayHydration: {
 	mode: 'mount',
 	// enables nuxt-delay-hydration in dev mode for testing
 	debug: false // process.env.NODE_ENV === 'development'
+},
+purgecss: {
+	enabled: true, // Always enable purgecss
+	//safelist: ['my-class'], // Add my-class token to the safelist (e.g. .my-class)
 },
 // 'nuxt-delay-hydration'
  modules: ['@nuxt/ui','@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-gtag', 'nuxt-og-image'],
