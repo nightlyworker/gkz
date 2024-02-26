@@ -11,7 +11,7 @@ programmingpartner: 13
 codonring: Ring of Union
 aminoacid: Valine
 ---
-# Gene Key 7: Virtue is its Own Reward
+# Gene Key 7
 
 ## Description
 

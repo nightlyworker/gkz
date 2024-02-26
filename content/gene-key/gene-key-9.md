@@ -11,7 +11,7 @@ programmingpartner: 16
 codonring: Ring of Light
 aminoacid: Threonine
 ---
-# Gene Key 9: The Power of the Infinitesimal
+# Gene Key 9
 
 ## Description
 

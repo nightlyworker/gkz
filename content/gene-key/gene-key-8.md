@@ -11,7 +11,7 @@ programmingpartner: 14
 codonring: Ring of Water
 aminoacid: Phenylalanine
 ---
-# Gene Key 8: Diamond of the Self
+# Gene Key 8
 
 ## Description
 

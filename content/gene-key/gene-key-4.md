@@ -11,7 +11,7 @@ programmingpartner: 49
 codonring: Ring of Union
 aminoacid: Valine
 ---
-# Gene Key 4: A Universal Panacea
+# Gene Key 4
 
 ## Description
 

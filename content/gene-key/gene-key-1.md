@@ -11,7 +11,7 @@ programmingpartner: 2
 codonring: Ring of Fire
 aminoacid: Lysine
 ---
-# Gene Key 1: From Entropy to Syntropy
+# Gene Key 1
 
 ## Description
 

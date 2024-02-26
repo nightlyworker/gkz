@@ -11,7 +11,7 @@ programmingpartner: 36
 codonring: Ring of Alchemy
 aminoacid: Glycine
 ---
-# Gene Key 6: The Path to Peace
+# Gene Key 6
 
 ## Description
 

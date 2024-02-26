@@ -11,7 +11,7 @@ programmingpartner: 15
 codonring: Ring of Humanity
 aminoacid: Arginine
 ---
-# Gene Key 10: Being at Ease
+# Gene Key 10
 
 ## Description
 

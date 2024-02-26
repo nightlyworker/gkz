@@ -11,7 +11,7 @@ programmingpartner: 1
 codonring: Ring of Water
 aminoacid: Phenylalanine
 ---
-# Gene Key 2: Returning to the One
+# Gene Key 2
 
 ## Description
 

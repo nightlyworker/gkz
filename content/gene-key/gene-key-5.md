@@ -11,7 +11,7 @@ programmingpartner: 35
 codonring: Ring of Light
 aminoacid: Threonine
 ---
-# Gene Key 5: The Ending of Time
+# Gene Key 5
 
 ## Description
 
